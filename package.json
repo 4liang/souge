@@ -1,0 +1,22 @@
+{
+  "name": "souge",
+  "version": "1.0.0",
+  "description": "命令行听歌下载工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "工具",
+    "听歌",
+    "CLI"
+  ],
+  "license": "MIT",
+  "bin": {
+    "souge": "./bin/souge"
+  },
+  "dependencies": {
+    "inquirer": "^6.2.0",
+    "player": "^0.6.1"
+  }
+}
